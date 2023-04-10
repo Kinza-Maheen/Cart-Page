@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-clr:#383838;
+}
+
+.check .btn-primary{
+  max-height: 50px;
+  max-width: 150px;
+  /* margin-top: 3px; */
+}
+body {
+    font-family: 'Varta', sans-serif;
+  }
+  p{
+    color: #9a9da0;
+  }
+  a{
+    text-decoration: none;
+    color:var(--text-clr);
+  }
+  a:hover{
+    text-decoration: none;
+    color:var(--text-clr);
+  }
+  h2{
+    color:var(--text-clr);
+    font-size: 1.5rem;
+  }
+  
+  .main_cart {
+    background-color: #fff;
+  }
+  .card{
+    border: none;
+  }
+  
+  .product-img img {
+    max-height: 95%;
+    min-width: 65%;
+    /* object-fit: cover;
+    transition: transform 0.2s; */
+  }
+  .product_name{
+    color: black;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    font-weight: 500px;
+  }
+  .card-title p{
+    font-size: 0.9rem;
+    font-weight: 500px;
+
+  }
+  .remove_wish {
+    margin-top: 20px;
+  }
+.remove_wish p{
+  padding: 2px;
+}
+  .remove-and-wish p{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .price_money h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .set_quantity {
+    position: relative;
+    margin-top: 15px;
+  }
+  .set_quantity::after {
+    width: auto;
+    height: auto;
+    text-align: center;
+
+  }
+/*   
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .page-link {
+    color: #495057;
+    line-height: 15px;
+    width: 45px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-item input{
+    line-height: 22px;
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+  }
+  
+  .page-link:hover {
+    text-decoration: none;
+    color: #495057;
+    outline: none;
+  } 
+  .page-link:focus{
+box-shadow: none
+  }
+  .fa-heart:hover{
+    color: rgb(238, 50, 50);
+  } 
+  .fa-trash-alt:hover{
+    color: rgb(86, 68, 250);
+  } 
+
+  .price-indiv p{
+font-size: 1.1rem;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .main_cart {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .card-title {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .product_name {
+      font-size: 1.3rem;
+    }
+  
+    .set_quantity {
+      margin-top: 0;
+    }
+  }
+  
